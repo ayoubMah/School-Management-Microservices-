@@ -20,6 +20,7 @@ public class StudentController {
     }
 
     @GetMapping
+
     public ResponseEntity<List<Student>> findAllStudent(){
         return ResponseEntity.ok(studentService.finadAllStudent());
     }
